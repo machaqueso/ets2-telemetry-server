@@ -1,0 +1,47 @@
+﻿<!--
+
+Estado del camion
+Velocidad
+Cambio
+Combustible
+Sigiente descanso
+Hora en el juego
+
+-->
+
+<div class="dashboard">
+
+    <div style="display:flex; justify-content: center;">
+        <div style="display:flex;" class="game-time"></div>
+        <div style="display:flex;">
+            <label>Truck: </label>
+            <div class="truck-make"></div>
+            &nbsp;
+            <div class="truck-model"></div>
+            <label>Damage: </label>
+            <div class="truck-wear"></div>
+            <label>Speed: </label>
+            <div class="truck-speed"></div>
+            <label>Gear: </label>
+            <div class="truck-displayedGear"></div>
+            <label>Fuel: </label>
+            <div class="truck-fuel"></div>/<div class="truck-fuelCapacity"></div>
+        </div>
+    </div>
+
+    <div class="trailer-attached" style="display:flex; justify-content: center;">
+        <div style="display:flex;">
+            <label>Delivery: </label>
+            <div class="trailer-cargo"></div>
+            <label>To: </label>
+            <div class="job-destinationCity"></div> (<div class="job-destinationCompany"></div>)
+            <label>In:</label>
+            <div class="job-remainingTime"></div>
+            <label>ETA: </label>
+            <div class="navigation-etaTime"></div>/<div class="navigation-etaDistance"></div>
+            <label>Damage: </label>
+            <div class="trailer-wear"></div>
+        </div>
+    </div>
+
+</div>
